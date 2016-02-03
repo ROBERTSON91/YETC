@@ -25,7 +25,7 @@
   display: inline;
   padding: 8px;
   border: 3px solid black;
-  background-color: #E6E6E6;
+  background-color: white;
   border-radius: 5px;
   margin: 20px;
   z-index: 100;
@@ -35,22 +35,34 @@
           Boxes for Homepage
 \*------------------------------------*/
 
-.boxes ul{
+.boxes-button ul{
   position: relative;
-  margin-top: 60px;
-  list-style-type: none;
+  margin-top: 120px;
   align-content: center;
+  position: relative;
 }
 
-.boxes li{
+.boxes-button li{
   padding: 50px;
   border: 4px solid black;
   margin: 20px;
-  position: relative;
+  text-align: center;
+  list-style-type: none;
 }
 
-.boxes li ul{
+.boxes-button li ul{
   vertical-align: middle;
+}
+
+.boxes-button li a{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.boxes-button li a:hover{
+  text-decoration: none;
+  color: red;
 }
 
 .squeeze {
