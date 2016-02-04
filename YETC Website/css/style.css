@@ -1,7 +1,6 @@
 /*------------------------------------*\
               GENERAL
 \*------------------------------------*/
-
 *{
   margin: 0;
   padding: 0;
@@ -43,7 +42,6 @@
 }
 
 .boxes-button li{
-  padding: 50px;
   border: 4px solid black;
   margin: 20px;
   text-align: center;
@@ -55,6 +53,7 @@
 }
 
 .boxes-button li a{
+  padding: 50px;
   text-decoration: none;
   color: black;
   display: block;
