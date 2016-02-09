@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html{
+  height: 100%;
+}
+
 .title{
   position: relative;
   margin-top: 15px;
@@ -37,6 +41,11 @@
   text-decoration: none;
   color: black;
 }
+
+/*.navbar li a:visited{
+  text-decoration: none;
+  color: black;
+}*/
 
 .navbar li a:hover{
   text-decoration: none;
